@@ -52,8 +52,6 @@ autoload run-help
 HELPDIR=/usr/local/share/zsh/help
 alias x='exit'
 
-source /usr/local/share/zsh/site-functions/_aws
-
 staging() { heroku "$@" --remote staging }
 # don't want to run this by mistake, ever!
 #production() { heroku "$@" --remote production }

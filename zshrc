@@ -52,10 +52,6 @@ autoload run-help
 HELPDIR=/usr/local/share/zsh/help
 alias x='exit'
 
-staging() { heroku "$@" --remote staging }
-# don't want to run this by mistake, ever!
-#production() { heroku "$@" --remote production }
-
 alias dog=pygmentize
 
 if test -f ~/.gnupg/.gpg-agent-info -a -n "$(pgrep gpg-agent)"; then

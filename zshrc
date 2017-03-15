@@ -46,6 +46,7 @@ alias pushdep='cd && sudo rsync -av --exclude=deployment-scripts/modules ~deploy
 alias ss='sudo su -'
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export PATH=./bin:$PATH
 
 unalias run-help 2>/dev/null
 autoload run-help

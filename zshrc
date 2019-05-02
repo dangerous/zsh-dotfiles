@@ -8,27 +8,7 @@ ZSH_CUSTOM=$HOME/git/zsh-dotfiles/custom
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="dangerous"
-ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
-  history
-  vcs
-  dir
-)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
-)
-POWERLEVEL9K_MODE='nerdfont-complete'
-POWERLEVEL9K_FOLDER_ICON=''
-POWERLEVEL9K_HOME_ICON=''
-POWERLEVEL9K_HOME_SUB_ICON=''
-POWERLEVEL9K_VCS_BRANCH_ICON=$'\uF126 '
-POWERLEVEL9K_SHOW_CHANGESET=true
-POWERLEVEL9K_VCS_HIDE_TAGS=true
-POWERLEVEL9K_RPROMPT_ON_NEWLINE=false
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-#POWERLEVEL9K_CUSTOM_RUBY="echo -n '\ue21e'"
-#POWERLEVEL9K_CUSTOM_RUBY_FOREGROUND="black"
-#POWERLEVEL9K_CUSTOM_RUBY_BACKGROUND="red"
+ZSH_THEME="dangerous"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"

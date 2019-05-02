@@ -86,3 +86,4 @@ alias dog=pygmentize
 
 alias terminal-notifier='reattach-to-user-namespace terminal-notifier'
 eval "$(nodenv init -)"
+eval "$(pyenv init -)"

@@ -1,4 +1,6 @@
 # Path to your oh-my-zsh configuration.
+export TERM="xterm-256color"
+
 ZSH=$HOME/git/zsh-dotfiles/oh-my-zsh
 ZSH_CUSTOM=$HOME/git/zsh-dotfiles/custom
 

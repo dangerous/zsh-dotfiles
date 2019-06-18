@@ -1,2 +1,2 @@
 # nifty shortcut to remove newlines
-alias rnl="tr '\n' ' ' | sed 's/$/\n/'"
+alias rnl="tr '\n' ' ' | sed 's/$//'"

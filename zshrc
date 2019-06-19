@@ -64,8 +64,9 @@ alias dog=pygmentize
 #fi
 
 alias terminal-notifier='reattach-to-user-namespace terminal-notifier'
-eval "$(nodenv init -)"
-eval "$(pyenv init -)"
-eval "$(direnv hook zsh)"
+if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
+if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 zle_highlight+=(paste:none)

@@ -37,9 +37,9 @@ function git_cwd_info() {
   fi
 }
 if [ $SSH_TTY ]; then
-    ARROW="%{$fg[blue]%}➤ "
+    ARROW="%{$fg[blue]%}❯"
 else
-    ARROW="%{$fg[yellow]%}➤ "
+    ARROW="%{$fg[yellow]%}❯"
 fi
 
 tilde_or_pwd() {

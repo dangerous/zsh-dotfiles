@@ -1,10 +1,12 @@
 # zsh-dotfiles
 
-Assuming the repo is checked out to `~/git/zsh-dotfiles`, one just needs to checkout submodules and create symlinks to the repo.
+Zsh configuration: `.zshrc`, `.zshenv`, and a custom prompt theme.
+
+## Install
 
 ```
 cd ~/git/zsh-dotfiles
-git submodule update --init
-cd ~
-ln -s git/zsh-dotfiles/zshrc .zshrc
+./install.sh
 ```
+
+This symlinks `~/.zshrc` and `~/.zshenv` into the repo.

@@ -42,6 +42,7 @@ export PATH="$HOME/.asdf/installs/nodejs/22.17.1/bin:$PATH"
 eval "$(direnv hook zsh)"
 # Alias reminders
 source /opt/homebrew/share/zsh-you-should-use/you-should-use.plugin.zsh
+export YSU_HARDCORE=1
 
 # Named directories for ~/git/*
 for dir in ~/git/*/; do
@@ -87,8 +88,8 @@ alias awswhoami="env | grep VAULT; aws sts get-caller-identity | account-name-ex
 alias updatedb='sudo /usr/libexec/locate.updatedb'
 alias flushdns='sudo killall -HUP mDNSResponder'
 alias rnl="tr '\n' ' ' | sed 's/$//'"
-calc() { echo "$@" | bc -l -q -i }
-alias calc='noglob calc'
+_calc() { echo "$@" | bc -l -q -i }
+alias calc='noglob _calc'
 alias telnet='nc -v'
 
 # Functions
